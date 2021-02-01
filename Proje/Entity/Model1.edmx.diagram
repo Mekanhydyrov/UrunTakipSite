@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ce7d56f03ee64bd791ed6456304ff0ee" Name="Diagram1">
+        <EntityTypeShape EntityType="UrunTakipModel.TblKategori" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="UrunTakipModel.TblMusteri" Width="1.5" PointX="0.875" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="UrunTakipModel.TblPersonel" Width="1.5" PointX="7.875" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="UrunTakipModel.TblSatis" Width="1.5" PointX="5.25" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="UrunTakipModel.TblUrunler" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <AssociationConnector Association="UrunTakipModel.FK_TblUrunler_TblKategori" ManuallyRouted="false" />
+        <AssociationConnector Association="UrunTakipModel.FK_TblSatis_TblMusteri" ManuallyRouted="false" />
+        <AssociationConnector Association="UrunTakipModel.FK_TblSatis_TblPersonel" ManuallyRouted="false" />
+        <AssociationConnector Association="UrunTakipModel.FK_TblSatis_TblUrunler" ManuallyRouted="false" />
+        <EntityTypeShape EntityType="UrunTakipModel.TblAdmin" Width="1.5" PointX="3.375" PointY="4.75" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
